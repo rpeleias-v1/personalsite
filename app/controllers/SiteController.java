@@ -24,7 +24,7 @@ public class SiteController extends Controller{
 	}
 	
 	public static Result scholarship() {
-		return ok(views.html.certifications.render(Messages.get("global.scholarship")));
+		return ok(views.html.scholarship.render(Messages.get("global.scholarship")));
 	}
 	
 	public static Result languages() {

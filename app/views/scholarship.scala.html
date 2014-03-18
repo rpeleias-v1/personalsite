@@ -2,6 +2,60 @@
 
 @main("Rodrigo Peleias") {
 
-    <h1>@message</h1>
+    <div class="starter-template" >
+		<h1>@message</h1>
+	</div>
+
+	<div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("scholarship.graduation")</h4>  
+		</div>
+
+		<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" src="@routes.Assets.at("images/logoPuc.jpg")" alt="rodrigo" height="100" width="60">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("scholarship.graduniversity")</h4>			    
+			  	</div>
+			  	<div class="panel-body">						    
+				    <h4>@Messages("scholarship.graduniversity.duration")</h4>			    
+			  	</div>
+
+			</td>
+
+	  	</table>		
+	 </div>	  
+
+	 <div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("scholarship.postgraduation")</h4>  
+		</div>
+
+		<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" src="@routes.Assets.at("images/logoFIAP.jpg")" alt="rodrigo" height="100" width="100">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("scholarship.postgraduniversity")</h4>			    
+			  	</div>
+			  	<div class="panel-body">						    
+				    <h4>@Messages("scholarship.postgraduniversity.duration")</h4>			    
+			  	</div>
+
+			</td>
+
+	  	</table>		
+	 </div>	  
 
 }
