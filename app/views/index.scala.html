@@ -2,6 +2,46 @@
 
 @main("Rodrigo Peleias") {
 
-    <h1>@message</h1>
+	<div class="starter-template" >
+		<h1>@message</h1>
+	</div>
+    
+	
+	<table class="table">
+		<td>
+		<div class="panel panel-default">			
+			<div class="panel-body">
+			    <img style="float:right;" src="@routes.Assets.at("images/rodrigo.jpg")" alt="rodrigo" height="242" width="200">
+		  	</div>
+		 </div>		
+		</td>
+		<td>
+			<div class="panel panel-default">			
+				<div class="panel-body">
+				    <h4>@Messages("index.address")</h4>	    
+				    <h4>@Messages("index.neighborhood")</h4>	    
+				    <h4>@Messages("index.city")</h4>	    
+				    <h4>@Messages("index.zipCode")</h4>	    
+				    <h4>@Messages("index.tel")</h4>	    
+				    <h4>@Messages("index.mobile")</h4>
+				    <h4>@Messages("index.email")</h4>
+				     <a class="btn btn-primary">
+				      @Messages("index.sendMessages")
+				    </a>
+			  	</div>
+			 </div>
+		</td>
 
+  	</table>
+
+  	<div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("index.objectiveTitle")</h4>  
+		</div>
+		<div class="panel-body">						    
+		    <h4>@Messages("index.objectiveResponse")</h4>			    
+	  	</div>
+	 </div>	  
+
+	
 }

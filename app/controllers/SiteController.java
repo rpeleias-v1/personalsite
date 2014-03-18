@@ -8,7 +8,7 @@ import play.mvc.Result;
 public class SiteController extends Controller{
 	
 	public static Result index() {
-		return ok(views.html.index.render("Rodrigo Peleias"));
+		return ok(views.html.index.render(Messages.get("global.fullName")));
 	}
 	
 	public static Result experience() {

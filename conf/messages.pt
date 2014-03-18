@@ -1,9 +1,21 @@
 # global messages
 
 global.name=Rodrigo Peleias
+global.fullName=Rodrigo D Agostini Peleias
 global.scholarship=Formação Acadêmica
 global.experience=Experiência Profissional
 global.technologies=Tecnologias
 global.certifications=Certificações
 global.languages=Idiomas
 global.contact=Contato
+
+index.address=Rua Tibiri, 282 apto. 122
+index.neighborhood=Jardim São Paulo
+index.city=São Paulo, SP	    
+index.zipCode=CEP: 02043-070
+index.tel=Telefone: (11) 2679-2589	    
+index.mobile=Celular: (11) 2679-2589
+index.email=rpeleias@hotmail.com
+index.sendMessages=Enviar Mensagem
+index.objectiveTitle=Objetivos Profissionais
+index.objectiveResponse=Atuação como Analista Desenvolvedor
