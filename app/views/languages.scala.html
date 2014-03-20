@@ -2,6 +2,101 @@
 
 @main("Rodrigo Peleias") {
 
-    <h1>@message</h1>
+    <div class="starter-template" >
+		<h1>@message</h1>
+	</div>
 
+	<div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("language.english")</h4>  			
+		</div>
+
+		<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" class="img-responsive margin-center" src="@routes.Assets.at("images/logoCultura.jpg")" alt="culturaInglesa" height="100" width="120">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("language.english.cultura")</h4>		
+				    <p>@Messages("language.english.cultura.period") - @Messages("language.english.cultura.level")</p>		        
+			  	</div>		
+				
+			</td>
+
+	  	</table>		
+
+	  	<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" class="img-responsive margin-center" src="@routes.Assets.at("images/logoEnglishTown.png")" alt="englishtown" height="100" width="100">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("language.english.englishtown")</h4>   
+				    <p>@Messages("language.english.englishtown.period") - @Messages("language.english.englishtown.level")</p>				    		    
+			  	</div>			  	
+
+			</td>
+
+	  	</table>		
+	 </div>	  
+
+	 <div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("language.spanish")</h4>  			
+		</div>
+
+		<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" class="img-responsive margin-center" src="@routes.Assets.at("images/logoCulturaEspanhola.jpg")" alt="culturaEspanhola" height="100" width="100">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("language.spanish.cultura")</h4>				        
+				    <p>@Messages("language.spanish.cultura.period") - @Messages("language.spanish.cultura.level")</p>		    
+			  	</div>			  	
+
+			</td>
+
+	  	</table>		
+	  	
+	 </div>	  
+
+	 <div class="panel panel-default">			
+		<div class="panel-heading">
+			<h4>@Messages("language.international")</h4>  			
+		</div>
+
+		<table class="table">
+			<td>
+			<div >			
+				<div class="panel-body">
+				    <img style="float:left;" class="img-responsive margin-center" src="@routes.Assets.at("images/logoLanguages.jpg")" alt="languagesInternational" height="100" width="100">
+			  	</div>
+			 </div>		
+			</td>
+			<td>
+				<div class="panel-body">						    
+				    <h4>@Messages("language.international.languages")</h4>	
+				    <p>@Messages("language.international.languages.location")</p>				        
+				    <p>@Messages("language.international.languages.period") - @Messages("language.international.languages.level")</p>		    
+			  	</div>			  	
+
+			</td>
+
+	  	</table>		
+	  	
+	 </div>	  
+	 
 }
